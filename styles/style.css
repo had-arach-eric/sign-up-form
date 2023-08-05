@@ -52,10 +52,16 @@ body {
 }
 
 .right {
-  padding-right: 15vw;
-  padding-left: 5vw;
-  padding-top: 15vh;
-  padding-bottom: 15vh;
+  padding: 15vh 15vw 15vh 5vw;
   width: 65vw;
+  background-color: #e7e7e7;
+}
+
+.description > p {
+  font-weight: bold;
+}
+
+.description p:last-child {
+  margin-bottom: 8vh;
 }
 
