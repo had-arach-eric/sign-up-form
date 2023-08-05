@@ -1,5 +1,0 @@
-Las entradas, por defecto tienen un borde muy claro (#E5E7EB), pero hemos incluido 2 variaciones. Para empezar, las entradas de contraseña deben tener una clase de error.
-
-Comprobar que los campos de contraseña coinciden entre sí requiere javascript. Intenta implementarlo si te sientes seguro, de lo contrario valida cada campo por separado.
-
-
