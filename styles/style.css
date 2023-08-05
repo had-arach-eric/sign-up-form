@@ -68,7 +68,7 @@ body {
 }
 
 .description p:last-child {
-  margin-bottom: 8vh;
+  margin-bottom: 5vh;
 }
 
 .form-container {
@@ -112,5 +112,14 @@ input {
 input:focus {
   border: 3px solid blue;
   box-shadow: 1px 1px 5px;
+}
+
+.password {
+  border: 2px solid red;
+  box-shadow: 1px 1px 5px;
+}
+
+.incorrect-password {
+  color: red;
 }
 

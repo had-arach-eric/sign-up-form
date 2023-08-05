@@ -29,39 +29,40 @@
         <h2>Let's do this!</h2>
         <ul>
           <li>
-            <label for="first-name">FIRST NAME
-              <input type="text" name="first-name">
+            <label for="first-name" class="first-name-label" minlength="3" maxlength="25">FIRST NAME *
+              <input type="text" name="first-name" required>
             </label> 
           </li>
           <li>
-            <label for="last-name">LAST NAME
-              <input type="text" name="last-name">
+            <label for="last-name" class="last-name-label" minlength="3" maxlength="25">LAST NAME *
+              <input type="text" name="last-name" required>
             </label>
           </li>
           <li>
-            <label for="email">EMAIL
-              <input type="email" name="email">
+            <label for="email" class="email-label">EMAIL *
+              <input type="email" name="email" required>
             </label> 
           </li>
           <li>
-            <label for="phone-number">PHONE NUMBER
+            <label for="phone-number" class="phone-label" minlength="5" maxlength="15">PHONE NUMBER
               <input type="tel" name="tel">
             </label> 
           </li>
           <li>
-            <label for="password">PASSWORD
-              <input type="password" class="password" id="password" name="password">
+            <label for="password" class="password-label">PASSWORD *
+              <input type="password" class="password" id="password" name="password" required>
             </label>
+            <p class="incorrect-password" id="incorrect-password">* Password do not match</p>
           </li>
           <li>
-            <label for="confirm-password">CONFIRM PASSWORD
-              <input type="password" class="password" id="confirm-password" name="confirm-password">
+            <label for="confirm-password" class="confirm-password-label">CONFIRM PASSWORD *
+              <input type="password" class="password" id="confirm-password" name="confirm-password" required>
             </label>
           </li>
         </ul>
       </div>
     </form>
-    <button type="button" form="form" class="button">Create Account</button>
+    <button type="submit" form="form" class="button">Create Account</button>
     <p class="call-to-log-in">Already have an account? <a href="#">Log in</a></p>
   </div>
 </body>
