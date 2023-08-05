@@ -1,0 +1,8 @@
+color botón "Crear cuenta" es similar a los tonos de la imagen de fondo. En concreto, es #596D48.
+
+Las entradas, por defecto tienen un borde muy claro (#E5E7EB), pero hemos incluido 2 variaciones. Para empezar, las entradas de contraseña deben tener una clase de error.
+La otra variación es la entrada seleccionada, que debería tener un borde azul y una sutil sombra de caja. Esto se puede hacer con la pseudo-clase :focus que has aprendido en una lección anterior.
+
+Comprobar que los campos de contraseña coinciden entre sí requiere javascript. Intenta implementarlo si te sientes seguro, de lo contrario valida cada campo por separado.
+
+
