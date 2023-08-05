@@ -109,3 +109,8 @@ input {
   text-decoration: none;
 }
 
+input:focus {
+  border: 3px solid blue;
+  box-shadow: 1px 1px 5px;
+}
+
