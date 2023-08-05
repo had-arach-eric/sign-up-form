@@ -10,6 +10,7 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
+  font-family: "Arial", serif;
 }
 
 @font-face {
@@ -78,17 +79,33 @@ body {
   margin-bottom: 5vh;
 }
 
-.form-container ul {
+ul {
   padding-left: 0px;
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
   column-gap: 40px;
   row-gap: 20px;
-  /*background-color: red;*/
 }
 
 input {
   display: block;
+  border: 2px inset #E5E7EB;
+}
+
+.button {
+  background-color: #596D48;
+  margin-left: 5vw;
+  padding: 15px 50px 15px 50px;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 2vh;
+}
+
+.call-to-log-in > a {
+  color: #596D48;
+  font-weight: bold;
+  text-decoration: none;
 }
 
